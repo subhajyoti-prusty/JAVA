@@ -2,7 +2,7 @@
 
 /*Given n non-negative integers representing an elevation map where the width of each bar is 1, 
 compute how much water it can trap after raining*/
-package JAVA;
+
 public class TrappingRainwater {
 
     public static int trappedRainwater(int height[]){

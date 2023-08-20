@@ -1,5 +1,3 @@
-package JAVA;
-
 public class TryAndCatch {
     public static void main(String[] args){
         int a = 1000;

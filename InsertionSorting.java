@@ -1,5 +1,3 @@
-package JAVA;
-
 public class InsertionSorting {
     public static void Insertionsorting(int arr[]){ // its time complexcity is Big O of n^2
         for(int i=1;i<arr.length;i++){

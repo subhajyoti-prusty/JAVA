@@ -1,4 +1,3 @@
-package JAVA;
 import java.util.*;
 public class Arrays_Function {
     public static void update(int marks[], int nonChangable){

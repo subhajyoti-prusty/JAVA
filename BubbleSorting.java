@@ -1,4 +1,3 @@
-package JAVA;
 public class BubbleSorting {
     public static void Sorting(int arr[]){ //Time complexcity is big O of n^2 
         for(int Turns=0;Turns<arr.length-1;Turns++){

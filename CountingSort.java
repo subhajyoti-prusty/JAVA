@@ -1,5 +1,3 @@
-package JAVA;
-
 public class CountingSort {
     public static void countingsort(int arr[]){
         int largest = Integer.MIN_VALUE;

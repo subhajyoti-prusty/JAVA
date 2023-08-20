@@ -1,5 +1,3 @@
-package JAVA;
-
 public class SelectionSort {
     public static void Sort(int arr[]){ //Time complexcity is big O of n^2 
         for(int i= 0; i<arr.length-1;i++){

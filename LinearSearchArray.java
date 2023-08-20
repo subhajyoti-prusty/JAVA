@@ -1,4 +1,3 @@
-package JAVA;
 public class LinearSearchArray {
     public static int LinearSearch(int number[],int key){
         for(int i=0; i<number.length; i++){

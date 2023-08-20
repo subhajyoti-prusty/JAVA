@@ -1,4 +1,3 @@
-package JAVA;
 import java.util.*;
 public class LargestInArray {
     public static int getLargest (int numbers []) {

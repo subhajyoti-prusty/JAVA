@@ -1,4 +1,3 @@
-package JAVA;
 public class ReverseInArray {
     public static void reverse(int number[]){
         int start=0;

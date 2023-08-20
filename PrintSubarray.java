@@ -1,4 +1,3 @@
-package JAVA;
 public class PrintSubarray {
     public static void PrintSubarray(int number[]){
         int ts = 0;
