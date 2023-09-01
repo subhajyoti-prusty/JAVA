@@ -1,2 +1,2 @@
 # JAVA
-Learning java from basics.
+Java from basics.
