@@ -1,7 +1,29 @@
 package ArrayList.src;
 import java.util.*;
 public class ContenerWithMostWater {
-    //Brute force Approch           TC is Big O of N^2
+
+    // 2 Pointer Approch            TC is Big O of N
+    public static int storedwater(ArrayList<Integer>Height){
+        int maxwater=0;
+        int lp = 0;
+        int rp = Height.size()-1;
+
+        while(lp < rp){
+            //Calculate area of water
+            int ht = Math.min(Height.get(lp),Height.get(rp));
+                int width = rp - lp;
+                int currentwater = ht * width;
+                maxwater = Math.max(maxwater,currentwater);
+            //Update Pointer
+            if (Height.get(lp) < Height.get(rp)) {
+                lp++;
+            } else {
+                rp--;
+            }
+        }
+        return maxwater;
+    }
+    // Brute force Approch           TC is Big O of N^2
     public static int StoredWater(ArrayList<Integer>Height){
         int MaxWater = 0;
         for (int i = 0; i < Height.size(); i++) {
@@ -27,6 +49,7 @@ public class ContenerWithMostWater {
         Height.add(3);
         Height.add(7);
 
-        System.out.println(StoredWater(Height));
+        System.out.println("Solution With Brute Force Approch: "+StoredWater(Height));
+        System.out.println("Solution With 2 Pointer Approch: "+storedwater(Height));
     }
 }
