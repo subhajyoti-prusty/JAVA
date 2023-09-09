@@ -1,4 +1,4 @@
-package Linkedlist;
+package Linkedlist.src;
 public class PrintLL {
     class Node{
         int data;

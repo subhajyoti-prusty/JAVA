@@ -1,4 +1,4 @@
-package Linkedlist;
+package Linkedlist.src;
 public class HeadAndTailLL {
     //Creating a node of the linkedlist
     class Node{
