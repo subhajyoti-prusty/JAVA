@@ -18,5 +18,7 @@ public class SortingInArraylist {
         //Descending order
         Collections.sort(list, Collections.reverseOrder(null));
         System.out.println(list);
+
+        //Comparator --> It defines logics in java. eg:- Collections.reverseOrder(null)
     }
 }
