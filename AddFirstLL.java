@@ -32,5 +32,4 @@ public class AddFirstLL {
         ll.addFirst(2);
         ll.addFirst(1);
     }
-    
 }
