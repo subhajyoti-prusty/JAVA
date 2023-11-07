@@ -1,4 +1,4 @@
-package JAVA.OOPS;
+package OOPS.src;
 //Interface
 //
 public class OOPS_6 {

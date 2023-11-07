@@ -12,6 +12,4 @@ public class Substrings {
         str.substring(0, 5);        //Substring function already avalible in String class in java
         System.out.println(substrings(str, 0, 5));
     }
-
-    
 }

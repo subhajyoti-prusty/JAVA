@@ -1,4 +1,4 @@
-package JAVA.OOPS;
+package OOPS.src;
 public class OOPS_1 {
     
     public static void main(String[] args) {

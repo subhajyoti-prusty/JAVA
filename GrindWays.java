@@ -1,5 +1,5 @@
 package Backtracking.src;
-public class GrindWays {
+public class GrindWays {        //TC is Big O of 2^n+m
     public static int gridWays(int i, int j, int n, int m){
         // Base case
         if (i == n-1 && j == m-1) {
@@ -14,6 +14,8 @@ public class GrindWays {
     public static void main(String[] args) {
         int n=3, m=3;
         System.out.println(gridWays(0, 0, n, m));
-    }
-    
+    } 
 }
+
+// Trick formula for this 
+//((n-1)+(m-1))!/(n-1)!(m-1)!

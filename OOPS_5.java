@@ -1,4 +1,4 @@
-package JAVA.OOPS;
+package OOPS.src;
 
 //Abstraction: Hiding all the unnecessary details and showing only the imp parts to the user
 //Abstract class:-

@@ -1,4 +1,4 @@
-package JAVA.OOPS;
+package OOPS.src;
 //Inheritance
 
 public class OOPS_3 {

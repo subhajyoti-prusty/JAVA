@@ -14,5 +14,4 @@ public class BinaryStringWithoutConsecutiveOnes {
     public static void main(String[] args) {
         BinaryString(3,0, "");        
     }
-    
 }

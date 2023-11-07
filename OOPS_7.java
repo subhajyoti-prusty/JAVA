@@ -1,4 +1,4 @@
-package JAVA.OOPS;
+package OOPS.src;
 //static keyword in Java is used to share the same variable or method of a given class.
 //- Properties
 //- Functions

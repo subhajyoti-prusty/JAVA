@@ -1,4 +1,4 @@
-package JAVA.OOPS;
+package OOPS.src;
 public class OOPS_2 {
     //Encapsulation: its defined as the wrapping up of data & method a single unit. It also implements data hiding
     //Constructor:Constructor is a special method which is invoked automatically at the time of object creation.

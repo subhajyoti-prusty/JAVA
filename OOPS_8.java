@@ -1,4 +1,4 @@
-package JAVA.OOPS;
+package OOPS.src;
 public class OOPS_8 {
     public static void main(String[] args){
         Horse1 h = new Horse1();
