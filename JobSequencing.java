@@ -43,3 +43,4 @@ public class JobSequencing {
     }
 
 }
+//minimum number to cut board into squares
